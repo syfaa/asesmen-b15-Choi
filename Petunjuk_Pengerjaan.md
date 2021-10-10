@@ -6,5 +6,6 @@
 6. Push hasil pekerjaan anda kembali ke repositori ini 
 7. Pesan commitnya ikuti format ini "[<nama_anda>] <isinya bebas, kreasikan saja yang penting tetap sopan>" (nanti tanda < sama > dihilangkan)
 8. Sebenarnya tidak mengikuti formatnya tidak apa-apa, tidak mempengaruhi penilaian, tapi enak saja kalau diliat bentuknya ada standarnya gitu
+9. Kalau ada yang ingin ditanyakan, bisa di channel #weekly-test-choi
 
 Bonus nilai apabila bisa mengerjakan di branch baru (gunakan nama lengkap anda sebagai nama branchnya) kemudian melakukan Pull Request ke branch main (setelah berhasil jangan dihapus branch barunya karena akan menjadi bukti)
