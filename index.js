@@ -1,5 +1,7 @@
 let gelobal = ["nama1", "nama2", "namaseterusnya", "dst"] 
 
+gelobal = ["Mochamad", "Dena", "Eka", "Putra"]
+
 // Kode di bawah untuk dibaca saja, jangan diubah ya. Pengerjaan kalian cukup di atas ini
 let sebuah_fungsi = function(suatu_input) {
   console.log("ini variabel global ->", "gelobal =", gelobal)
