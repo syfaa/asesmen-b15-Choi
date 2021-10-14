@@ -3,7 +3,7 @@ let gelobal = ["nama1", "nama2", "namaseterusnya", "dst"];
 gelobal = [
   "Mochamad Dena Eka Putra",
   "Fajar Kresna Pahlawan",
-  "namaseterusnya",
+  "Gusti Arsyad",
   "dst",
 ];
 
