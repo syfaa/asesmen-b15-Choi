@@ -6,6 +6,7 @@ gelobal = [
   "Gusti Arsyad",
   "Nanda Nipri D",
   "Fadhitya Syafa Andini",
+  "Hardiansyah Rochani",
   "dst",
 ];
 
