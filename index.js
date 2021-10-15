@@ -1,10 +1,7 @@
 let gelobal = ["nama1", "nama2", "namaseterusnya", "dst"];
 
 gelobal = [
-  "Mochamad Dena Eka Putra",
-  "Fajar Kresna Pahlawan",
-  "Gusti Arsyad",
-  "dst",
+  "Nanda NIpri D"
 ];
 
 // Kode di bawah untuk dibaca saja, jangan diubah ya. Pengerjaan kalian cukup di atas ini
