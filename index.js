@@ -7,6 +7,7 @@ gelobal = [
   "Nanda Nipri D",
   "Fadhitya Syafa Andini",
   "Hardiansyah Rochani",
+  "Kevin Marchiano"
   "dst",
 ];
 

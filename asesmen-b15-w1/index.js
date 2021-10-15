@@ -1,6 +1,6 @@
 let gelobal = ["nama1", "nama2", "namaseterusnya", "dst"];
 
-gelobal = ["Mochamad Dena Eka Putra", "Fajar Kresna Pahlawan", "Gusti Arsyad", "Nanda Nipri D", "Fadhitya Syafa Andini", "Hardiansyah Rochani", "Fidoni Agusta Hartoyo", "dst"];
+gelobal = ["Mochamad Dena Eka Putra", "Fajar Kresna Pahlawan", "Gusti Arsyad", "Nanda Nipri D", "Fadhitya Syafa Andini", "Hardiansyah Rochani", "Fidoni Agusta Hartoyo", "Kevin Marchiano" , "dst"];
 
 // Kode di bawah untuk dibaca saja, jangan diubah ya. Pengerjaan kalian cukup di atas ini
 let sebuah_fungsi = function (suatu_input) {
