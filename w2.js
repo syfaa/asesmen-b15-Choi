@@ -1,51 +1,53 @@
 // Silahkan teman-teman membuat branch sendiri menggunakan nama lengkap (jika belum), kemudian mengerjakan soal berikut di branch masing-masing
 
-const nomorSatu =`Diberikan sebuah variabel bernama 'arr' berisi array. 
-    Dengan hanya menggunakan metode .push, .pop, .shift dan .unshift, jadikanlah array tersebut berisi angka urut dari 1 sampai 9!`
-const arr = [-6, 9999, 3, 4, 5, 6, 7, 6, 5]
+const nomorSatu = `Diberikan sebuah variabel bernama 'arr' berisi array. 
+    Dengan hanya menggunakan metode .push, .pop, .shift dan .unshift, jadikanlah array tersebut berisi angka urut dari 1 sampai 9!`;
+const arr = [-6, 9999, 3, 4, 5, 6, 7, 6, 5];
 // contoh: arr.push(9); arr.pop(); arr.pop(); arr.unshift(2); dst....
 // hasil akhir arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 // Silahkan mengerjakan di bawah ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
-
-
-
-
+// arr.push();
+// arr.pop();
+console.log(arr);
 
 // Silahkan mengerjakan soal nomorSatu di atas ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
-
-
 
 const nomorDua = `Diberikan sebuah variabel bernama 'gelobal' berisi array. 
     Ubahlah setiap elemen di dalam array tersebut dari string menjadi objek yang berisi string aslinya utuh dan huruf pertama dari string aslinya. 
     Silahkan menggunakan satu dari tiga cara berikut:
     1. looping (for atau while)
     2. .map
-    3. .forEach`
-const gelobal = ["Mochamad Dena Eka Putra", "Fajar Kresna Pahlawan", "Gusti Arsyad", "Nanda Nipri D", "Fadhitya Syafa Andini", "Hardiansyah Rochani", "Kevin Marchiano", "Anggun Wahyuni", "Khairul Umam", "Fidoni Agusta Hartoyo"];
+    3. .forEach`;
+const gelobal = [
+  "Mochamad Dena Eka Putra",
+  "Fajar Kresna Pahlawan",
+  "Gusti Arsyad",
+  "Nanda Nipri D",
+  "Fadhitya Syafa Andini",
+  "Hardiansyah Rochani",
+  "Kevin Marchiano",
+  "Anggun Wahyuni",
+  "Khairul Umam",
+  "Fidoni Agusta Hartoyo",
+];
 // contoh hasil = [{asli: "Choirul R", hurufPertama: "c"}, {asli: "Clannad After Story", hurufPertama: "C"}]
 // Silahkan mengerjakan soal nomorDua di bawah ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
 
-
-
-
-
 // Silahkan mengerjakan soal nomorDua di atas ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
 
-
-
-
-
-const nomorTiga = `uhh... ngoding aja apapun, yang penting ada "if else"nya. Tidak boleh ada yang mirip ya. Indikator mirip nggaknya ya nanti kita lihat`
+const nomorTiga = `uhh... ngoding aja apapun, yang penting ada "if else"nya. Tidak boleh ada yang mirip ya. Indikator mirip nggaknya ya nanti kita lihat`;
 // contoh :
 // let udahNontonClannad = true
 // if (udahNontonClannad) { console.log("nice") }
 // else { console.log("buruan nonton") }
 // contoh selesai
 // Silahkan mengerjakan soal nomorTiga di bawah ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
-
-
-
-
+let sukaMarvelGak = true;
+if (sukaMarvelGak) {
+  console.log("Bagus, skuy nonton Eternal nanti November !");
+} else {
+  console.log("Eh, yaudah kalo nonton film Dune aja gimana ?");
+}
 
 // Silahkan mengerjakan soal nomorTiga di atas ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
 // NB: Sepertinya soal nomorTiga berpotensi tinggi untuk copas kodingan dari tempat lain karena konteksnya bebas, tapi plis bikin sendiri. Selamat mengerjakan
