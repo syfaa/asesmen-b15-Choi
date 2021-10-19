@@ -35,7 +35,7 @@ const gelobal = ["Mochamad Dena Eka Putra", "Fajar Kresna Pahlawan", "Gusti Arsy
 
 
 
-const nomorTiga = `uhh... ngoding aja apapun, yang penting ada "if else"nya. Tidak boleh ada yang mirip ya. Indikator mirip nggaknya ya nanti kita lihat`
+const nomorTiga = `uhh... ngoding aja apapun, yang penting ada "if else"nya. Tidak boleh ada yang mirip ya dengan contoh maupun dengan teman yang lainnya. Indikator mirip nggaknya ya nanti kita lihat`
 // contoh :
 // let udahNontonClannad = true
 // if (udahNontonClannad) { console.log("nice") }
