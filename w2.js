@@ -8,7 +8,7 @@ const arr = [-6, 9999, 3, 4, 5, 6, 7, 6, 5];
 // Silahkan mengerjakan di bawah ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
 // arr.push();
 // arr.pop();
-console.log(arr);
+console.log(arr.pop());
 
 // Silahkan mengerjakan soal nomorSatu di atas ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
 
@@ -30,6 +30,8 @@ const gelobal = [
   "Khairul Umam",
   "Fidoni Agusta Hartoyo",
 ];
+
+console.log(`asli: ${gelobal[0]}, hurufPertama: "M"`);
 // contoh hasil = [{asli: "Choirul R", hurufPertama: "c"}, {asli: "Clannad After Story", hurufPertama: "C"}]
 // Silahkan mengerjakan soal nomorDua di bawah ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
 
@@ -42,12 +44,21 @@ const nomorTiga = `uhh... ngoding aja apapun, yang penting ada "if else"nya. Tid
 // else { console.log("buruan nonton") }
 // contoh selesai
 // Silahkan mengerjakan soal nomorTiga di bawah ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
-let sukaMarvelGak = true;
-if (sukaMarvelGak) {
-  console.log("Bagus, skuy nonton Eternal nanti November !");
-} else {
-  console.log("Eh, yaudah kalo nonton film Dune aja gimana ?");
+function rateFilmMarvel(judul) {
+  if ((judul = "Captain America 2")) {
+    return "9.5";
+  } else if ((judul = "Avengers End Game")) {
+    return "9";
+  } else if ((judul = "Avengers Age of Ultron")) {
+    return "8.5";
+  } else if ((judul = "Black Widow")) {
+    return "8";
+  } else {
+    return "7.5";
+  }
 }
+
+console.log(rateFilmMarvel("Captain America 2"));
 
 // Silahkan mengerjakan soal nomorTiga di atas ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
 // NB: Sepertinya soal nomorTiga berpotensi tinggi untuk copas kodingan dari tempat lain karena konteksnya bebas, tapi plis bikin sendiri. Selamat mengerjakan
