@@ -69,16 +69,15 @@ const nomorTiga = `uhh... ngoding aja apapun, yang penting ada "if else"nya. Tid
 // contoh selesai
 // Silahkan mengerjakan soal nomorTiga di bawah ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
 
-function developers(stack) {
-  if(stack="back-end") {
-      return "belajar javascript";
-  } else if (stack="front- end") {
-      return "belajar HTML & CSS";
-  } else  {
-      return "belajar react native";
-  }
+let fruits = ["Watermelon", "Banana", "Orange", "cabbage", "apple"];
+
+for (let i = 0; i < fruits.length; i++) {
+  if (fruits[i] != "cabbage") {
+    console.log(
+      `${fruits[i]}  is a healthy food, it's definitely worth to eat.`
+    );
+  } else console.log(`${fruits[i]} is not a fruit`);
 }
-console.log(developers("back-end"));
 
 console.log(
   "======================================================================"
