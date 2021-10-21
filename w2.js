@@ -8,8 +8,13 @@ const arr = [-6, 9999, 3, 4, 5, 6, 7, 6, 5];
 // Silahkan mengerjakan di bawah ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
 // arr.push();
 // arr.pop();
-console.log(arr.pop());
-
+arr.shift();
+arr.shift();
+arr.unshift(1, 2);
+arr.pop();
+arr.pop();
+arr.push(8, 9);
+console.log(arr);
 // Silahkan mengerjakan soal nomorSatu di atas ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
 
 const nomorDua = `Diberikan sebuah variabel bernama 'gelobal' berisi array. 
