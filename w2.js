@@ -7,7 +7,13 @@ const arr = [-6, 9999, 3, 4, 5, 6, 7, 6, 5]
 // hasil akhir arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 // Silahkan mengerjakan di bawah ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
 
-
+arr.shift();
+arr.shift();
+arr.unshift(1, 2);
+arr.pop();
+arr.pop();
+arr.push(8, 9);
+console.log(arr);
 
 
 
@@ -21,13 +27,36 @@ const nomorDua = `Diberikan sebuah variabel bernama 'gelobal' berisi array.
     1. looping (for atau while)
     2. .map
     3. .forEach`
-const gelobal = ["Mochamad Dena Eka Putra", "Fajar Kresna Pahlawan", "Gusti Arsyad", "Nanda Nipri D", "Fadhitya Syafa Andini", "Hardiansyah Rochani", "Kevin Marchiano", "Anggun Wahyuni", "Khairul Umam", "Fidoni Agusta Hartoyo"];
+const global = [
+  "Mochamad Dena Eka Putra",
+  "Fajar Kresna Pahlawan",
+  "Gusti Arsyad",
+  "Nanda Nipri D",
+  "Fadhitya Syafa Andini",
+  "Hardiansyah Rochani",
+  "Kevin Marchiano",
+  "Anggun Wahyuni",
+  "Khairul Umam",
+  "Fidoni Agusta Hartoyo",
+];
+
+let daftarList = [];
+daftarList = global.map(function(object) {
+    let list = {};
+    list ["real"] = object;
+    list ["firstWord"] = object.charAt (0);
+
+
+return list;
+});
+console.log(daftarList);
+
+
+console.log(
+    '-----------------------------------------------------------------------------------------'
+);
 // contoh hasil = [{asli: "Choirul R", hurufPertama: "c"}, {asli: "Clannad After Story", hurufPertama: "C"}]
 // Silahkan mengerjakan soal nomorDua di bawah ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
-
-
-
-
 
 // Silahkan mengerjakan soal nomorDua di atas ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
 
@@ -43,9 +72,24 @@ const nomorTiga = `uhh... ngoding aja apapun, yang penting ada "if else"nya. Tid
 // contoh selesai
 // Silahkan mengerjakan soal nomorTiga di bawah ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
 
+function nilaiUlangan(value){
+    if (value >= 80){
+        return 'Al';
+    } else if (value >= 70){
+        return 'venus';
+    } else if (value >= 60){
+        return 'langit';
+    } else if (value >= 30){
+        return 'lea';
+    } else {
+        return 'vale';
+    }
+}
 
-
-
+console.log(nilaiUlangan(45));
+console.log(nilaiUlangan(45));
+console.log(nilaiUlangan(90));
+  
 
 // Silahkan mengerjakan soal nomorTiga di atas ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
 // NB: Sepertinya soal nomorTiga berpotensi tinggi untuk copas kodingan dari tempat lain karena konteksnya bebas, tapi plis bikin sendiri. Selamat mengerjakan
