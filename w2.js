@@ -39,16 +39,27 @@ const global = [
   "Khairul Umam",
   "Fidoni Agusta Hartoyo",
 ];
+// let list = {};
 
 let daftarList = [];
-daftarList = global.map(function(object) {
-    let list = {};
-    list ["real"] = object;
-    list ["firstWord"] = object.charAt (0);
+// daftarList = global.map(function(object) {
+//     let list = {};
+//     list ["real"] = object;
+//     list ["firstWord"] = object.charAt (0);
 
 
-return list;
-});
+// return list;
+// });
+// console.log(daftarList);
+
+for (let i = 0; i < global.length; i++) {
+   let list = {};
+   list ["real"] = global [i];
+   list ["firstWord"] = global [i].charAt (0);
+   
+   daftarList.push(list)
+}
+
 console.log(daftarList);
 
 
@@ -71,24 +82,20 @@ const nomorTiga = `uhh... ngoding aja apapun, yang penting ada "if else"nya. Tid
 // else { console.log("buruan nonton") }
 // contoh selesai
 // Silahkan mengerjakan soal nomorTiga di bawah ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
-
-function nilaiUlangan(value){
-    if (value >= 80){
-        return 'Al';
-    } else if (value >= 70){
-        return 'venus';
-    } else if (value >= 60){
-        return 'langit';
-    } else if (value >= 30){
-        return 'lea';
+let x = 'makan banyak'
+function kenyang(x){
+    if (x == 'makan sedikit'){
+        return 'masih laper';
+    } else if (x == 'makan aja'){
+        return 'masih kurang';
+    } else if ( x == 'makan banyak'){
+        return 'kenyang';
     } else {
-        return 'vale';
+        return 'belum makan';
     }
 }
 
-console.log(nilaiUlangan(45));
-console.log(nilaiUlangan(45));
-console.log(nilaiUlangan(90));
+console.log(kenyang(x))
   
 
 // Silahkan mengerjakan soal nomorTiga di atas ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
