@@ -6,8 +6,6 @@ const arr = [-6, 9999, 3, 4, 5, 6, 7, 6, 5];
 // contoh: arr.push(9); arr.pop(); arr.pop(); arr.unshift(2); dst....
 // hasil akhir arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 // Silahkan mengerjakan di bawah ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
-// arr.push();
-// arr.pop();
 arr.shift();
 arr.shift();
 arr.unshift(1, 2);
@@ -16,6 +14,9 @@ arr.pop();
 arr.push(8, 9);
 console.log(arr);
 // Silahkan mengerjakan soal nomorSatu di atas ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
+console.log(
+  "======================================================================"
+);
 
 const nomorDua = `Diberikan sebuah variabel bernama 'gelobal' berisi array. 
     Ubahlah setiap elemen di dalam array tersebut dari string menjadi objek yang berisi string aslinya utuh dan huruf pertama dari string aslinya. 
@@ -36,10 +37,17 @@ const gelobal = [
   "Fidoni Agusta Hartoyo",
 ];
 
-console.log(`asli: ${gelobal[0]}, hurufPertama: "M"`);
 // contoh hasil = [{asli: "Choirul R", hurufPertama: "c"}, {asli: "Clannad After Story", hurufPertama: "C"}]
 // Silahkan mengerjakan soal nomorDua di bawah ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
+let validasiNama = [];
+validasiNama = gelobal.map(function (char) {
+  let valid = {};
+  valid["asli"] = char;
+  valid["hurufPertama"] = char.charAt(0);
 
+  return valid;
+});
+console.log(validasiNama);
 // Silahkan mengerjakan soal nomorDua di atas ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
 
 const nomorTiga = `uhh... ngoding aja apapun, yang penting ada "if else"nya. Tidak boleh ada yang mirip ya. Indikator mirip nggaknya ya nanti kita lihat`;
@@ -49,6 +57,10 @@ const nomorTiga = `uhh... ngoding aja apapun, yang penting ada "if else"nya. Tid
 // else { console.log("buruan nonton") }
 // contoh selesai
 // Silahkan mengerjakan soal nomorTiga di bawah ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
+console.log(
+  "======================================================================"
+);
+
 function rateFilmMarvel(judul) {
   if ((judul = "Captain America 2")) {
     return "9.5";
