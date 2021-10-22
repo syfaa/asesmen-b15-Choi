@@ -58,22 +58,13 @@ console.log(objectGelobal);
 // Silahkan mengerjakan soal nomorTiga di bawah ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
 
 /* Jawaban 3*/
+let umur = 20;
 
-function penciptaScript(nama) {
-  if (nama == "c") {
-    return "Penemu Bahasa C ==> Dennis Richi";
-  } else if (nama == "java script") {
-    return "Brendan Eich";
-  } else if (nama == "python") {
-    return "Guido van Rossum";
-  } else {
-    return "Belum di List.... sabar ya :D";
-  }
+if(umur >= 11){
+    console.log('Pangkas Bayar = Rp.10.000');
+}else if(umur >= 12 && umur <= 25){
+    console.log("Pangkas Bayar = Rp.20.000");
+}else{
+    console.log("Pangkas Bayar = Rp.30.000");
 }
-console.log("Pencipta Bahasa Programing");
 
-console.log(penciptaScript("python"));
-
-console.log(
-  "======================================================================"
-);
