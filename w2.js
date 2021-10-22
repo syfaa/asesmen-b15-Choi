@@ -7,8 +7,14 @@ const arr = [-6, 9999, 3, 4, 5, 6, 7, 6, 5]
 // hasil akhir arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 // Silahkan mengerjakan di bawah ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
 
-
-
+arr.shift();
+arr.shift();
+arr.unshift(1,2);
+arr.pop();
+arr.pop();
+arr.push(8,9);
+console.log(`Result : ${arr}`);
+console.log(' ');
 
 
 // Silahkan mengerjakan soal nomorSatu di atas ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
@@ -21,16 +27,22 @@ const nomorDua = `Diberikan sebuah variabel bernama 'gelobal' berisi array.
     1. looping (for atau while)
     2. .map
     3. .forEach`
-const gelobal = ["Mochamad Dena Eka Putra", "Fajar Kresna Pahlawan", "Gusti Arsyad", "Nanda Nipri D", "Fadhitya Syafa Andini", "Hardiansyah Rochani", "Kevin Marchiano", "Anggun Wahyuni", "Khairul Umam", "Fidoni Agusta Hartoyo"];
 // contoh hasil = [{asli: "Choirul R", hurufPertama: "c"}, {asli: "Clannad After Story", hurufPertama: "C"}]
 // Silahkan mengerjakan soal nomorDua di bawah ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
 
+const gelobal = ["Mochamad Dena Eka Putra", "Fajar Kresna Pahlawan", "Gusti Arsyad", "Nanda Nipri D", "Fadhitya Syafa Andini", "Hardiansyah Rochani", "Kevin Marchiano", "Anggun Wahyuni", "Khairul Umam", "Fidoni Agusta Hartoyo"];
+let arrNama = [];
 
-
-
+arrNama = gelobal.map(function (string) {
+  let nama = {};
+  nama["asli"] = string;
+  nama["hurufPertama"] = string.charAt(0);
+  return nama;
+});
+console.log(arrNama);
+console.log(' ');
 
 // Silahkan mengerjakan soal nomorDua di atas ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
-
 
 
 
@@ -44,7 +56,21 @@ const nomorTiga = `uhh... ngoding aja apapun, yang penting ada "if else"nya. Tid
 // Silahkan mengerjakan soal nomorTiga di bawah ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
 
 
+function IPK(value) {
+    if (value >= 80){
+        return 'A (Sangat Baik)';
+    } else if (value >= 70) {
+        return 'B (Baik)';
+    } else if (value >= 60) {
+        return 'C (Cukup)';
+    } else if (value >= 50) {
+        return 'D (Kurang)';
+    } else {
+        return 'E (Sangat Kurang)';
+    }
+}
 
+console.log (`Selamat nilai anda : ${IPK(80)}`);
 
 
 // Silahkan mengerjakan soal nomorTiga di atas ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
