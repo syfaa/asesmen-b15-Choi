@@ -82,20 +82,32 @@ const nomorTiga = `uhh... ngoding aja apapun, yang penting ada "if else"nya. Tid
 // else { console.log("buruan nonton") }
 // contoh selesai
 // Silahkan mengerjakan soal nomorTiga di bawah ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
-let x = 'makan banyak'
-function kenyang(x){
-    if (x == 'makan sedikit'){
-        return 'masih laper';
-    } else if (x == 'makan aja'){
-        return 'masih kurang';
-    } else if ( x == 'makan banyak'){
-        return 'kenyang';
+let vehicle = [
+    `honda`,`suzuki`,`bmw`,`toyota`
+
+]
+
+for (let i = 0; i < vehicle.length; i++){
+    if (vehicle[i] != 'toyota') {
+        console.log(vehicle[i] + " " + "adalah produsen mobil dan motor");
+
     } else {
-        return 'belum makan';
+        console.log(vehicle[i] + " " + "adalah produsen mobil");
     }
 }
+// function kenyang(x){
+//     if (x == 'makan sedikit'){
+//         return 'masih laper';
+//     } else if (x == 'makan aja'){
+//         return 'masih kurang';
+//     } else if ( x == 'makan banyak'){
+//         return 'kenyang';
+//     } else {
+//         return 'belum makan';
+//     }
+// }
 
-console.log(kenyang(x))
+// console.log(kenyang(x))
   
 
 // Silahkan mengerjakan soal nomorTiga di atas ini (jumlah baris yang dibutuhkan mungkin berbeda, sesuaikan saja)
