@@ -23,3 +23,4 @@ app.listen(3000, () => console.log("listening to port 3000"))
 //   d. w3.js
 // 3. Jangan lupa untuk memasang express terlebih dahulu, dengan command `npm install express`
 // 4. Hasil pekerjaan tidak perlu Pull Request ke branch main, biarkan tetap di branch masing-masing
+// 5. Sudah ada script `npm start` yang bisa dipakai atau disesuaikan untuk eksekusi tugas asesmen minggu ketiga.
