@@ -12,6 +12,7 @@ app.listen(3000, () => console.log("listening to port 3000"))
 //   2a. Satu controller berisi penggunaan library/framework yang tadi sudah direquire/import
 //   2b. Satu controller berisi bebas, tetapi sukses dan menghasilkan sesuatu ketika diakses, dan tidak boleh mirip dengan teman yang lain (yang lebih dulu push ke github yang berhak dapat).
 // 3. Pecahlah hasil pekerjaan anda menjadi beberapa file dan folder mengikuti kaidah struktur MVC!
+// 4. Nilai sempurna kalau ada secuil OOP ---- kalau nggak ada, nilai maksimal 9/10
 // =============================================
 
 // Petunjuk/Catatan:
