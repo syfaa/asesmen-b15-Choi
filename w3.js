@@ -1,11 +1,29 @@
-const express = require('express')
-const app = express()
+// Import exports
+const express = require("express");
+// Make express app
+const app = express();
 
-app.get("/", (req, res) => res.status(200).send("Welcome to Week 3!"))
+// Import albums router
+const data = require("./routers/index");
 
-app.listen(3000, () => console.log("listening to port 3000"))
+// Define the port
 
-// ============================================= 
+const port = process.env.PORT || 3000;
+
+// Enable req.body (JSON file)
+app.use(express.json());
+// Enable req.body (URL - Encoded)
+app.use(express.urlencoded({ extended: true }));
+
+// Handle client when client access to http://localhost:3000/data
+app.use("/data", data);
+
+// Run this application on port 3000
+app.listen(port, () => {
+  console.log(`Server running on ${port}!`);
+});
+
+// =============================================
 // Tugas Asesmen Choi, Minggu ketiga:
 // 1. Gunakan/require/import setidaknya satu library/framework lain selain express yang sudah ada!
 // 2. Buatlah dua controller+route tambahan selain yang sudah ada! Endpoint route bebas

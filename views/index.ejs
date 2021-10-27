@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <section class="main">
+      <ul>
+        <li><a href="/data/full">Index</a></li>
+        <% for (let i = 1; i <= 10; i++) { %>
+        <li><a href="/data/<%= i %>">Detail user <%= i %></a></li>
+        <% } %>
+        <li>
+          <a href="/data/dataAxios"
+            >Data yang diambil menggunakan Axios (output di console.log)</a
+          >
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>

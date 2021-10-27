@@ -1,13 +1,18 @@
 {
-  "name": "asesmen-b15-Choi",
+  "name": "asesmen-b15-choi",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "w3.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "axios": "^0.23.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
   "scripts": {
+    "dev": "npx nodemon w3",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node w3.js"
   },
@@ -16,10 +21,11 @@
     "url": "git+https://github.com/Choi-R/asesmen-b15-Choi.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mochamad Dena Eka Putra",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Choi-R/asesmen-b15-Choi/issues"
   },
-  "homepage": "https://github.com/Choi-R/asesmen-b15-Choi#readme"
+  "homepage": "https://github.com/Choi-R/asesmen-b15-Choi#readme",
+  "description": ""
 }

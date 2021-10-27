@@ -1,0 +1,62 @@
+[
+  {
+    "user_id": 1,
+    "first_name": "데나",
+    "last_name": "강",
+    "date_of_birth": "1994-02-27"
+  },
+  {
+    "user_id": 2,
+    "first_name": "이지은",
+    "last_name": "이",
+    "date_of_birth": "1994-02-27"
+  },
+  {
+    "user_id": 3,
+    "first_name": "수정",
+    "last_name": "정",
+    "date_of_birth": "1994-02-27"
+  },
+  {
+    "user_id": 4,
+    "first_name": "아이린",
+    "last_name": "배",
+    "date_of_birth": "1994-02-27"
+  },
+  {
+    "user_id": 5,
+    "first_name": "소은",
+    "last_name": "박",
+    "date_of_birth": "1994-02-27"
+  },
+  {
+    "user_id": 6,
+    "first_name": "로제",
+    "last_name": "김",
+    "date_of_birth": "1994-02-27"
+  },
+  {
+    "user_id": 7,
+    "first_name": "지수",
+    "last_name": "김",
+    "date_of_birth": "1994-02-27"
+  },
+  {
+    "user_id": 8,
+    "first_name": "수지",
+    "last_name": "배",
+    "date_of_birth": "1994-02-27"
+  },
+  {
+    "user_id": 9,
+    "first_name": "태연",
+    "last_name": "김",
+    "date_of_birth": "1994-02-27"
+  },
+  {
+    "user_id": 10,
+    "first_name": "지호",
+    "last_name": "김",
+    "date_of_birth": "1994-02-27"
+  }
+]
