@@ -1,0 +1,52 @@
+[
+  {
+    "id": 8225,
+    "category": "atm",
+    "name": "One And All"
+  },
+  {
+    "id": 385385,
+    "category": "cafe",
+    "name": "Agua tierra"
+  },
+  {
+    "id": 15,
+    "category": "grocery",
+    "name": "Slaters Meats"
+  },
+  {
+    "id": 33,
+    "category": "default",
+    "name": "kaktusy eshop"
+  },
+  {
+    "id": 295715,
+    "category": "default",
+    "name": "Fuchs Hairteam"
+  },
+  {
+    "id": 4,
+    "category": "데나",
+    "name": "강"
+  },
+  {
+    "id": 7,
+    "category": "shopping",
+    "name": "Tietokonekauppa"
+  },
+  {
+    "id": 5,
+    "category": "lodging",
+    "name": "Bandholm Hotel"
+  },
+  {
+    "id": 8,
+    "category": "default",
+    "name": "SierraHosts.net"
+  },
+  {
+    "id": 7,
+    "category": "nightlife",
+    "name": "Helkan Baari"
+  }
+]
