@@ -1,0 +1,22 @@
+[
+  {
+    "number": 1,
+    "product": "face wash",
+    "price": 12000
+  },
+  {
+    "number": 2,
+    "product": "lip-tint",
+    "price": 45000
+  },
+  {
+    "number": 3,
+    "product": "fondation",
+    "price": 65000
+  },
+  {
+    "number": 4,
+    "product": "blush-on",
+    "price": 30000
+  }
+]
